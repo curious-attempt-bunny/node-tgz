@@ -1,9 +1,9 @@
 {
   "name": "tgz",
-  "description": "Extract files from a tgz archive in node.js in memory - yes, this doesn&#x27;t write to disk.",
-  "version": "0.0.2",
+  "description": "Extract files from a tgz archive in node.js in memory - yes, this doesn't write to disk.",
+  "version": "0.0.3",
   "repository": {
-    "url": "git://github.com/curious-attempt-bunny/tgz.git"
+    "url": "git://github.com/curious-attempt-bunny/node-tgz.git"
   },
   "main": "index.js",
   "scripts": {

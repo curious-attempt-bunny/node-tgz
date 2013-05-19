@@ -5,7 +5,7 @@ Extract files from a tgz archive in node.js in memory - yes, this doesn't write 
 # Usage
 
     var tgz = require('tgz');
-    tgz(...);
+    tgz(filename_or_stream, function(error, files) { console.log(files['folder/file.txt']); );
 
 # Installation
 
