@@ -1,0 +1,23 @@
+{
+  "name": "tgz",
+  "description": "Extract files from a tgz archive in node.js in memory - yes, this doesn&#x27;t write to disk.",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/curious-attempt-bunny/tgz.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "tar": "~0.1.17",
+    "fstream": "~0.1.22",
+    "zlib": "~1.0.5"
+  },
+  "devDependencies": {
+    "tap": "~0.4.3",
+    "tape": "~1.0.2"
+  },
+  "author": "Merlyn Albery-Speyer <curious.attempt.bunny@gmail.com> (curiousattemptbunny.com)",
+  "license": "MIT"
+}
