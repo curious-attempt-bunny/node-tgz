@@ -4,8 +4,8 @@ var fstream = require('fstream');
 
 module.exports = function(filename_or_stream, next) {
   var files = {};
-  fstream
-    .Reader(filename_or_stream)
+  var stream = typeof(filename_or_stream) == 'string' ? fstream.Reader(filename_or_stream) : filename_or_stream
+  stream
     .on("error", next)
     .pipe(zlib.createGunzip())
     .on("error", next)
